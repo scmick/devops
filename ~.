@@ -1,0 +1,20 @@
+  824  cat  /etc/ssh/sshd_config 
+  825  sudo cat  /etc/ssh/sshd_config 
+  889  cd .ssh
+  922  ssh-copy-id 172.23.6.184
+  923  ssh-copy-id 172.23.6.185
+  924  ssh-copy-id 172.23.5.183
+  925  ssh-copy-id smick@172.23.6.184
+  926  ssh-copy-id smick@172.23.6.185
+  927  ssh-copy-id smick@172.23.5.186
+  928  ssh-copy-id smick@172.23.5.183
+  934  ssh smick@ussanqssvecl01
+  935  ssh smick@ussanqssvecl02
+  936  ssh smick@ussanqssvecl03
+  937  ssh-keyscan -H 172.23.5.183 >> ~/.ssh/known_hosts
+  956  ssh -T www.github.com
+  957  ssh -T www.github.com -p 443
+  958  vim ~/.ssh/config
+  959  ssh -T git@github.com
+  960  cat ~/.ssh/config
+ 1128  history | grep ssh > list.txt
